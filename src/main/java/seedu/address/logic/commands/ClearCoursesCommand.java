@@ -11,7 +11,7 @@ import seedu.address.model.person.Person;
  */
 public class ClearCoursesCommand extends Command {
     public static final String COMMAND_WORD = "clear-courses";
-    public static final String MESSAGE_SUCCESS = "All courses have been cleared!";
+    public static final String MESSAGE_SUCCESS = "All courses in NUSCoursemates have been cleared!";
 
     @Override
     public CommandResult execute(Model model) {
